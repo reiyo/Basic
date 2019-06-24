@@ -22,7 +22,9 @@ print (val) # 10
 class MyObject(object):
     def __init__(self, val):
         self.val = val
-    def __lt__(self, other):
+    def __eq__(self, other):
+        return self.val == other.val
+    def __lt__(self, other): # replace < with > for max heap 
         return self.val < other.val
 
 h = []
