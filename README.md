@@ -1,2 +1,2 @@
 # Basic
-Simple codes on C++ or Python for general purpose.
+Simple codes on C++/Python for general purpose.
